@@ -85,7 +85,7 @@ public class JWTWebSecurityConfig extends WebSecurityConfigurerAdapter
             .ignoring()
             .antMatchers(
                 HttpMethod.GET,
-                "/jpa/users/adagun/projects" //Other Stuff You want to Ignore
+                "/**" //Other Stuff You want to Ignore
             );
 //            .and()
 //            .ignoring()
