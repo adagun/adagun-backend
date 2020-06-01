@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "jwt.http.request.header",
+      "type": "java.lang.String",
+      "description": "Description for jwt.http.request.header."
+    },
+    {
+      "name": "jwt.refresh.token.uri",
+      "type": "java.lang.String",
+      "description": "Description for jwt.refresh.token.uri."
+    }
+  ] }
